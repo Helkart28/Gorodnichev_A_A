@@ -1,0 +1,7 @@
+import math
+
+x = float(input("Введите переменную x: "))
+y = float(input("Введите переменную y: "))
+z = float(input("Введите переменную z: "))
+s = 2 ** (y ** x) + (3 ** x) ** y - y * (math.atan(z) - 1 / 3) / (math.fabs(x) + 1 / (y ** 2 + 1))
+print("s = {0:.5f}".format(s))
