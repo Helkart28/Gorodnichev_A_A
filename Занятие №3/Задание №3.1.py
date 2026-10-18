@@ -1,5 +1,5 @@
-s = int(input())
-v = int(input())
-o = int(input())
+z = int(input())
+x = int(input())
+c = int(input())
 
-print(s + v + o)
+print(z + x + c)
