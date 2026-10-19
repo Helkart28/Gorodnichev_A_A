@@ -1,0 +1,5 @@
+z = input("Введите строку: ")
+dots_count = z.count(".")
+modified_string = z.replace(".", "")
+print("Измененная строка без точек:", modified_string)
+print("Количество удаленных символов (точек):", dots_count)
